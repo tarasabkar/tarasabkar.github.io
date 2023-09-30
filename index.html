@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tara Sabkar - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #f8f8f8;
+            font-size: 18px;
+        }
+        header, nav {
+            box-shadow: 0px 2px 2px -2px gray; 
+            z-index: 1000; 
+            position: sticky;
+            top: 0; 
+            background-color: #f8f8f8;
+            color: #000000;
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+        }
+        nav a {
+            color: #000000;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        h2, h3 {
+            color: #000000;
+        }
+        a {
+            color: #70A1D7;
+        }
+        aside {
+            background-color: #f8f8f8;
+            color: #000000;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .teaching-experience {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .teaching-experience h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        .role {
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        .course {
+            margin: 0;
+            font-size: 16px; 
+            white-space: pre; 
+        }
+        
+        .date {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #000000;
+        }
+
+
+    </style>
+</head>
+<body>
+    <aside>
+        <img src="https://drive.google.com/uc?export=view&id=1YvP0z4cs9WNmviKiYmc2wM_L197-1mnz" alt="Tara Sabkar">
+        <h2>Tara Sabkar</h2>
+        <p>MC.S. Student at The University of Tehran<br>
+        Tehran, Iran</p>
+        <p><strong>Email:</strong><br>
+        <a href="mailto:tara.sabkar@ut.ac.ir">tara.sabkar@ut.ac.ir</a><br>
+        <a href="mailto:tarasabkar@gmail.com">tarasabkar@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong><br>
+        <a href="https://linkedin.com/in/tarasabkar/" target="_blank">linkedin.com/in/tarasabkar/</a></p>
+        <p><strong>GitHub:</strong><br>
+        <a href="https://github.com/tarasabkar" target="_blank">github.com/tarasabkar</a></p>
+    </aside>
+    <main>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="https://drive.google.com/file/d/1N3IM_HeXFWPMFK4-0TBURZkBGZXHYiit/view?usp=sharing" download>CV</a>
+            <a href="#publications">Publications</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Tara Sabkar, a Computer Science master's student at the University of Tehran, graduating in November 2023. I am Currently working on my thesis in "Multimodal Emotion Recognition based on Audio and Video modalities using Transformer models" and a paper related to it. With a keen eye on the horizon, I'm excited to embark on a Ph.D. journey in fall 2024, where I aim to contribute to the evolution of technology that enhances human-computer interactions and improves overall well-being. My ultimate goal is to add meaningful value to the world, creating a future where people can lead better lives.</p>
+        </section>
+        <section id="research">
+            <h2>Research</h2>
+            <h3>My Current Research Work:</h3>
+            <p>"Affective computing emerges as a critical component in enhancing AI agents with emotional intelligence, centered on understanding how human emotions impact decision-making, behavior, and communication. The study focuses on enhancing this field by investigating different models, fusion techniques, and data preprocessing methods to determine the most effective ones for emotion recognition in a transparent manner. The primary aim is to create a model for recognizing emotions using audio and video data, relying on deep neural networks like Transformers. Furthermore, delving into the potential of applying transfer learning using pre-existing models for this specific task is a key aspect of the research. The model's performance is evaluated on the IEMOCAP dataset, emphasizing accuracy and F-score. The goal is to shed light on the best approaches for replicating and comprehending the emotional facets of human intelligence in intelligent systems."</p>
+        </section>
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>I really enjoy reading books, especially ones about self-help, management, and how the mind works and cognitive science. When I'm not reading, I love listening to music and watching movies. I'm also a big fan of traveling and camping. I do calisthenics and bouldering as a workout. But my true passion is being outdoors, hiking, watching wildlife, camping, and exploring the beauty of nature.</p>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <h3>In Progress:</h3>
+            <p>Paper on my Master’s Thesis<br>
+            Anticipated Completion Date: November 2023</p>
+        </section>
+        <section id="teaching">
+            <h2>Teaching Experiences</h2>
+          
+            <div class="teaching-experience">
+                <h3>K. N. Toosi University of Technology</h3>
+                <p class="role">Undergraduate Teaching Assistant</p>
+                <p class="course">    Course: Data Structures and Algorithms</p>
+                <span class="date">Feb. 2018 – Jun. 2018</span>
+            </div>
+
+            <div class="teaching-experience">
+                <h3>K. N. Toosi University of Technology</h3>
+                <p class="role">Undergraduate Teaching Assistant</p>
+                <p class="course">    Course: Object Oriented Programming</p>
+                <span class="date">Sep. 2015 – Feb. 2016</span>
+            </div>
+            <div class="teaching-experience">
+                <h3>K. N. Toosi University of Technology</h3>
+                <p class="role">Undergraduate Teaching Assistant</p>
+                <p class="course">    Course: Introduction to Programming</p>
+                <span class="date">Feb. 2015 – Jun. 2015</span>
+            </div>
+            <div class="teaching-experience">
+                <h3>Moalem High School</h3>
+                <p class="role">Teacher</p>
+                <p class="course">    Teaching Programming and Robotics</p>
+                <span class="date">Sep. 2014 – Jun. 2018</span>
+                <p class="role">Tutor</p>
+                <p class="course">    Teaching High School Mathematics and Physics</p>
+                
+            </div>
+
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Address:</strong><br>
+            NLP Lab, School of Mathematics, Statistics, and Computer Science, College of Science, University of Tehran, Enghelab Avenue, Tehran, Iran.<br>
+            Postal Code: 1417614411</p>
+            <p><strong>Cell:</strong> (+98) 9127646203</p>
+            <p><strong>Email:</strong> <a href="mailto:tarasabkar@gmail.com">tarasabkar@gmail.com</a></p>
+        </section>
+    </main>
+</body>
+</html>
